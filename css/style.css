@@ -1,8 +1,8 @@
 :root {
   --main-text-color: #434455;
   --section-text-color: #2e2f42;
-  --btn-color-text: #F4F4FD;
-  --btn-color-back: #4d5ae5;
+  --btn-color-text:#4d5ae5  ;
+  --btn-color-back:#F4F4FD;
 }
 
 
@@ -159,36 +159,27 @@
   }
 
 
-
-
   /* main Portfolio*/
 
-  .btn-all {
+  .btn {
+    font-weight: 500;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--btn-color-text);
-    background-color: var(--btn-color-back)
+    background-color: var(--btn-color-back);
+    cursor: pointer;
   }
-  .btn-all:hover {
+  .btn:hover {
     color: #FFFFFF;
     background-color: #404BBF;
   }
-  .btn-all:focus {
+  .btn:focus {
     color: #FFFFFF;
     background-color: #404BBF;
   }
 
-  .btn {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color:  #4D5AE5 ;
-    background-color: #F4F4FD; 
-  }
- 
   .row-img-caption {
     font-weight: 500;
     font-size: 20px;
