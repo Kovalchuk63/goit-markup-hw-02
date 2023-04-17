@@ -1,78 +1,38 @@
-:root {
+.link {text-decoration: none;}
+.link {list-style: none}
 
-}
-
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
-}
 .body {
-  font-family: "Roboto", sans-serif;
-  color:#434455 ;
+  background-color:#FFFFFF;
 }
-
-/*  */
-/* INDEX */
-/*  */
-/* head */
-
 .header {
-
 }
 .nav {
 }
-
 .logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color:#2e2f42
-}
-.logo:hover .logo:focus{
-  color:#404bbf ;
+  color:#4d5ae5;
 }
 .studio {
-  color:#2e2f42
+  color:#2e2f42;
 }
 
-.nav-list {
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:#2e2f42
+  color:#2e2f42;
 }
-
 .nav-page {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:#2e2f42
+  color:#2e2f42;
 }
-
-.address {
-  font-style: normal;
-
-}
-
-.data {
-}
-.data-item {
-}
-.data-item-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color:#434455;
-  letter-spacing: 0.02em;
-}
-.data-item-link:hover .data-item-link:focus {
+.nav-page:hover {
+  color: #404bbf;
+} 
+.nav-page:focus {
   color: #404bbf;
 }
 
@@ -80,105 +40,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-/* Заголовок */
-.title {
-
+.data {
 }
-.title-about {
-
+.data-item {
 }
-.title-btn {
-
+.data-item-link {
 }
-
-
-
-.title-btn-text {
-
-}
-
-/* FEATURE */
-.feature {
-}
-.feature-items {
-}
-.feature-list {
-}
-.feature-sub {
-}
-.feature-sub-deck {
-}
-
-/* ЩО МИ РОБИМО */
-.work-title {
-}
-.works {
-}
-.works-list {
-}
-.work-item {
-}
-.work-desc {
-}
-
-/* КОМАНДА */
-.team-title {
-}
-.team {
-}
-.team-list {
-}
-.team-item {
-}
-.team-img {
-}
-.team-name {
-}
-.team-desc {
-}
-
-/* ПІДВАЛ */
-.footer {
-}
-.footer-link {
-}
-.footer-deck {
-}
-
-/*  */
-/* ПОРТФОЛІО */
-/*  */
-
-/* КНОПКИ */
-.button-title {
-}
-.btn-list {
-}
-.btn-item {
-}
-.btn {
-}
-
-/* КАРТОЧКИ */
-.row {
-}
-.row-list {
-}
-.row-item {
-}
-.row-img {
-}
-.row-img-caption {
-}
-.row-img-desc {
-}
-
