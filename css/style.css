@@ -1,6 +1,8 @@
 :root {
   --main-text-color: #434455;
   --section-text-color: #2e2f42;
+  --btn-color-text: #F4F4FD;
+  --btn-color-back: #4d5ae5;
 }
 
 
@@ -154,4 +156,49 @@
 }
   .studio-foot {
     color:#f4f4fd;
+  }
+
+
+
+
+  /* main Portfolio*/
+
+  .btn-all {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--btn-color-text);
+    background-color: var(--btn-color-back)
+  }
+  .btn-all:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+  }
+  .btn-all:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+  }
+
+  .btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:  #4D5AE5 ;
+    background-color: #F4F4FD; 
+  }
+ 
+  .row-img-caption {
+    font-weight: 500;
+    font-size: 20px;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: var(--section-text-color);
+  }
+  .row-img-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
   }
