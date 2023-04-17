@@ -41,7 +41,11 @@
 }
 
 .nav-list {
-
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:#2e2f42
 }
 
 .nav-page {
@@ -63,11 +67,10 @@
 }
 .data-item-link {
   font-size: 16px;
-  letter-spacing: 0.02em;
-  color:#434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
+  color:#434455;
+  letter-spacing: 0.02em;
 }
 .data-item-link:hover .data-item-link:focus {
   color: #404bbf;
