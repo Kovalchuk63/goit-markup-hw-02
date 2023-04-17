@@ -1,4 +1,8 @@
-:root
+:root {
+  --main-text-color: #434455;
+  --section-text-color: #2e2f42;
+}
+
 
 .link {text-decoration: none;}
 .list {list-style: none}
@@ -43,10 +47,54 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
 .data-item:hover {
   color: #404bbf;
 } 
 .data-item:focus {
   color: #404bbf;
+}
+/* 1 section */
+.title {
+  background-color: #2e2f42;
+}
+.title-about {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.title-btn {
+  background-color: #4D5AE5;
+  font-family: "Roboto", sans-serif ;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff ;
+  cursor: pointer
+}
+.title-btn:hover {
+  background-color: #404BBF
+}
+.title-btn:focus {
+  background-color: #404BBF
+}
+
+/* 2 section */
+
+
+.feature-sub {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--section-text-color);
+}
+.feature-sub-deck {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
