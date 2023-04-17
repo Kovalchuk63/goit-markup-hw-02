@@ -1,13 +1,23 @@
+:root {
+
+}
+
 /*  */
 /* INDEX */
 /*  */
 /* head */
-.link {
+.list {
   list-style: none;
 }
-.list {
+.link {
   text-decoration: none;
 }
+
+.body {
+  font-family: "Roboto", sans-serif;
+  color:#434455 ;
+}
+
 
 .header {
 
@@ -16,11 +26,31 @@
 }
 
 .logo {
-
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:#2e2f42 ;
 }
+.logo:hover .logo:focus{
+  color:#404bbf ;
+}
+
+
 .web {
 
 }
+
+.studio {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color:#2e2f42
+}
+
 .nav-list {
 
 }
@@ -28,12 +58,24 @@
 .nav-page {
 
 }
+
+.address {
+  font-style: normal;
+
+}
+
 .data {
 }
 .data-item {
 }
 .data-item-link {
-
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color:#434455;
+  
+}
+.data-item-link:hover .data-item-link:focus {
+  color: #404bbf;
 }
 
 /* Заголовок */
